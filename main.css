@@ -1,0 +1,13 @@
+.try {
+  text-orientation: sideways;
+}
+
+.try {
+  writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+
+.about {
+  writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
