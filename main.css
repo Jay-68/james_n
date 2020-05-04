@@ -1,13 +1,55 @@
-.try {
-  text-orientation: sideways;
+.row {
+  padding-top: 25%;
 }
 
 .try {
   writing-mode: tb-rl;
+  font-size: 35px;
   writing-mode: vertical-rl;
+  font-family: 'Sacramento', cursive;
 }
-
+.try>a{
+  color: #616161;
+}
+.try>a:hover{
+  color: #ffdc3e;
+}
 .about {
+  font-family: 'Sacramento', cursive;
+  font-size: 35px;
+  font-weight: lighter;
   writing-mode: tb-rl;
   writing-mode: vertical-rl;
+}
+.about > a {
+  color: #616161;
+}
+.about > a:hover {
+  color: #ffdc3e;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .try {
+    writing-mode: unset;
+  }
+  .about {
+    writing-mode: unset;
+  }
+}
+
+#videobg {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.special {
+  color: #f64c6d;
+  font-family: "Special Elite", cursive;
+}
+.elite {
+  color: #085b7a;
+  font-family: "Martel", serif;
 }
