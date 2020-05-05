@@ -1,4 +1,5 @@
-.c-glitch, .c-glitch__img {
+.c-glitch,
+.c-glitch__img {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -46,7 +47,8 @@
   opacity: 0;
 }
 @keyframes glitch-anim-1 {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 1;
     transform: translate3d(40px, 0, 0) scale3d(-1, -1, 1);
     clip-path: polygon(0 2%, 100% 2%, 100% 5%, 0 5%);
@@ -86,7 +88,8 @@
   }
 }
 @keyframes glitch-anim-2 {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 1;
     transform: translate3d(-10px, 0, 0);
     clip-path: polygon(0 25%, 100% 25%, 100% 30%, 0 30%);
@@ -138,7 +141,8 @@
   }
 }
 @keyframes glitch-anim-3 {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 1;
     transform: translate3d(0, -5px, 0) scale3d(-1, -1, 1);
     clip-path: polygon(0 1%, 100% 1%, 100% 3%, 0 3%);
@@ -199,11 +203,13 @@
   }
 }
 @keyframes glitch-anim-4 {
-  0%, 5% {
+  0%,
+  5% {
     opacity: 0.2;
     transform: translate3d(10px, 5px, 0);
   }
-  5.5%, 100% {
+  5.5%,
+  100% {
     opacity: 0;
     transform: translate3d(0, 0, 0);
   }
@@ -217,7 +223,8 @@ hr {
   border-width: 1px 0 0 0;
   border-radius: 20px;
 }
-hr:before { /* Not really supposed to work, but does */
+hr:before {
+  /* Not really supposed to work, but does */
   display: block;
   content: "";
   height: 30px;
@@ -226,4 +233,11 @@ hr:before { /* Not really supposed to work, but does */
   border-color: #f64c6d;
   border-width: 0 0 1px 0;
   border-radius: 20px;
+}
+
+/* .view {
+  background-color: #f64c6d;
+} */
+.help {
+  cursor: help;
 }

@@ -78,7 +78,7 @@
           style="background-image: url('https://images.pexels.com/photos/10916/pexels-photo-10916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         </div>
       </div>
-      <div class="col-md-5 c-glitch"
+      <div class="col-md-5 c-glitch help" data-toggle="modal" data-target="#modalDiscount"
         style="background-image: url('https://images.pexels.com/photos/3601081/pexels-photo-3601081.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');">
         <div class="c-glitch__img"
           style="background-image: url('https://images.pexels.com/photos/3601081/pexels-photo-3601081.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');">
@@ -96,6 +96,7 @@
           style="background-image: url('https://images.pexels.com/photos/3601081/pexels-photo-3601081.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');">
         </div>
       </div>
+
 
       <div class="col-md-3 c-glitch"
         style="background-image: url('https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
@@ -136,11 +137,62 @@
     </div>
   </div>
   </div>
+  <div class="text-center">
+    <button class="btn btn-sm mb-3 btn-elegant">
+      <a href="index.html" class="white-text">HOME</a>
+    </button>
+  </div>
 
 
-  <main>
+  <!--Modal: modalDiscount-->
+  <div class="modal fade right" id="modalDiscount" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true" data-backdrop="true">
+    <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-danger" role="document">
+      <!--Content-->
+      <div class="modal-content">
+        <!--Header-->
+        <div class="modal-header mx-auto pink accent-3">
+          <p class="heading my-0 py-0 font-weight-bold">
+            Personal blog
+          </p>
 
-  </main>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="white-text">&times;</span>
+          </button>
+        </div>
+
+        <!--Body-->
+        <div class="modal-body">
+
+          <div class="row">
+            <div class="col-3">
+              <p class="text-center">
+                <i class="fa fa-bookmark fa-4x blue-text" aria-hidden="true"></i>
+              </p>
+            </div>
+
+            <div class="col-9">
+              <p>
+                A web based personal blog that allows users to publish new articles.
+              </p>
+              <p>
+                Guest users can share their thoughts on the articles through a comment section.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Footer-->
+        <div class="modal-footer flex-center">
+          <a href="https://mdbootstrap.com/products/jquery-ui-kit/" class="btn btn-sm pink accent-3 white-text view"><i
+              class="fa fa-eye" aria-hidden="true"></i> View
+          </a>
+        </div>
+      </div>
+      <!--/.Content-->
+    </div>
+  </div>
+  <!--Modal: modalDiscount-->
 
   <!-- JQuery -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
