@@ -21,28 +21,79 @@
 <body>
 
   <div class="container">
-    <h1 class="my-4 font-weight-bold text-center py-1">Portfolio</h1>
+    <h1 class="my-2 font-weight-bold text-center py-1">Portfolio</h1>
     <hr width="40%">
     <div class="row pb-5">
-      <div class="col-md-3 c-glitch"
-        style="background-image: url('https://images.pexels.com/photos/3314294/pexels-photo-3314294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
+      <div class="col-md-3 c-glitch help" data-toggle="modal" data-target="#insta"
+        style="background-image: url('https://images.pexels.com/photos/1851415/pexels-photo-1851415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         <div class="c-glitch__img"
-          style="background-image: url('https://images.pexels.com/photos/3314294/pexels-photo-3314294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
+          style="background-image: url('https://images.pexels.com/photos/1851415/pexels-photo-1851415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         </div>
         <div class="c-glitch__img"
-          style="background-image: url('https://images.pexels.com/photos/3314294/pexels-photo-3314294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
+          style="background-image: url('https://images.pexels.com/photos/1851415/pexels-photo-1851415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         </div>
         <div class="c-glitch__img"
-          style="background-image: url('https://images.pexels.com/photos/3314294/pexels-photo-3314294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
+          style="background-image: url('https://images.pexels.com/photos/1851415/pexels-photo-1851415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         </div>
         <div class="c-glitch__img"
-          style="background-image: url('https://images.pexels.com/photos/3314294/pexels-photo-3314294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
+          style="background-image: url('https://images.pexels.com/photos/1851415/pexels-photo-1851415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         </div>
         <div class="c-glitch__img"
-          style="background-image: url('https://images.pexels.com/photos/3314294/pexels-photo-3314294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
+          style="background-image: url('https://images.pexels.com/photos/1851415/pexels-photo-1851415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         </div>
       </div>
-      <div class="col-md-6 c-glitch"
+      <!--Modal: insta-->
+      <div class="modal fade right" id="insta" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="true">
+        <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-danger" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header mx-auto pink accent-3">
+              <p class="heading my-0 py-0 font-weight-bold">
+                Instagram
+              </p>
+
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="white-text">&times;</span>
+              </button>
+            </div>
+
+            <!--Body-->
+            <div class="modal-body">
+
+              <div class="row">
+                <div class="col-3">
+                  <p class="text-center">
+                    <i class="fa fa-bookmark fa-4x blue-text" aria-hidden="true"></i>
+                  </p>
+                </div>
+
+                <div class="col-9">
+                  <p>
+                    A web based personal blog that allows users to publish new articles.
+                  </p>
+                  <p>
+                    Guest users can share their thoughts on the articles through a comment section.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer flex-center">
+              <a href="https://mdbootstrap.com/products/jquery-ui-kit/"
+                class="btn btn-sm pink accent-3 white-text view"><i class="fa fa-eye" aria-hidden="true"></i> View
+              </a>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <!--Modal: Insta-->
+
+
+      <div class="col-md-6 c-glitch help" data-toggle="modal" data-target="#mf"
         style="background-image: url('https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         <div class="c-glitch__img"
           style="background-image: url('https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
@@ -60,7 +111,58 @@
           style="background-image: url('https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         </div>
       </div>
-      <div class="col-md-3 c-glitch"
+
+      <!--Modal: mf-->
+      <div class="modal fade right" id="mf" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="true">
+        <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-danger" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header mx-auto pink accent-3">
+              <p class="heading my-0 py-0 font-weight-bold">
+                Moringa Flow
+              </p>
+
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="white-text">&times;</span>
+              </button>
+            </div>
+
+            <!--Body-->
+            <div class="modal-body">
+
+              <div class="row">
+                <div class="col-3">
+                  <p class="text-center">
+                    <i class="fa fa-bookmark fa-4x blue-text" aria-hidden="true"></i>
+                  </p>
+                </div>
+
+                <div class="col-9">
+                  <p>
+                    A web based personal blog that allows users to publish new articles.
+                  </p>
+                  <p>
+                    Guest users can share their thoughts on the articles through a comment section.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer flex-center">
+              <a href="https://mdbootstrap.com/products/jquery-ui-kit/"
+                class="btn btn-sm pink accent-3 white-text view"><i class="fa fa-eye" aria-hidden="true"></i> View
+              </a>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <!--Modal: mf-->
+
+      <div class="col-md-3 c-glitch help" data-toggle="modal" data-target="#museum"
         style="background-image: url('https://images.pexels.com/photos/10916/pexels-photo-10916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         <div class="c-glitch__img"
           style="background-image: url('https://images.pexels.com/photos/10916/pexels-photo-10916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
@@ -78,7 +180,56 @@
           style="background-image: url('https://images.pexels.com/photos/10916/pexels-photo-10916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         </div>
       </div>
-      <div class="col-md-5 c-glitch help" data-toggle="modal" data-target="#modalDiscount"
+      <!--Modal: museum-->
+      <div class="modal fade right" id="museum" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="true">
+        <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-danger" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header mx-auto pink accent-3">
+              <p class="heading my-0 py-0 font-weight-bold">
+                Online Museum
+              </p>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="white-text">&times;</span>
+              </button>
+            </div>
+
+            <!--Body-->
+            <div class="modal-body">
+
+              <div class="row">
+                <div class="col-3">
+                  <p class="text-center">
+                    <i class="fa fa-bookmark fa-4x blue-text" aria-hidden="true"></i>
+                  </p>
+                </div>
+
+                <div class="col-9">
+                  <p>
+                    A web based personal blog that allows users to publish new articles.
+                  </p>
+                  <p>
+                    Guest users can share their thoughts on the articles through a comment section.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer flex-center">
+              <a href="https://mdbootstrap.com/products/jquery-ui-kit/"
+                class="btn btn-sm pink accent-3 white-text view"><i class="fa fa-eye" aria-hidden="true"></i> View
+              </a>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <!--Modal: museum-->
+
+      <div class="col-md-5 c-glitch help" data-toggle="modal" data-target="#blog"
         style="background-image: url('https://images.pexels.com/photos/3601081/pexels-photo-3601081.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');">
         <div class="c-glitch__img"
           style="background-image: url('https://images.pexels.com/photos/3601081/pexels-photo-3601081.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');">
@@ -97,8 +248,58 @@
         </div>
       </div>
 
+      <!--Modal: modalDiscount-->
+      <div class="modal fade right" id="blog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="true">
+        <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-danger" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header mx-auto pink accent-3">
+              <p class="heading my-0 py-0 font-weight-bold">
+                Personal blog
+              </p>
 
-      <div class="col-md-3 c-glitch"
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="white-text">&times;</span>
+              </button>
+            </div>
+
+            <!--Body-->
+            <div class="modal-body">
+
+              <div class="row">
+                <div class="col-3">
+                  <p class="text-center">
+                    <i class="fa fa-bookmark fa-4x blue-text" aria-hidden="true"></i>
+                  </p>
+                </div>
+
+                <div class="col-9">
+                  <p>
+                    A web based personal blog that allows users to publish new articles.
+                  </p>
+                  <p>
+                    Guest users can share their thoughts on the articles through a comment section.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer flex-center">
+              <a href="https://mdbootstrap.com/products/jquery-ui-kit/"
+                class="btn btn-sm pink accent-3 white-text view"><i class="fa fa-eye" aria-hidden="true"></i> View
+              </a>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <!--Modal: modalDiscount-->
+
+
+      <div class="col-md-3 c-glitch help" data-toggle="modal" data-target="#gallery"
         style="background-image: url('https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         <div class="c-glitch__img"
           style="background-image: url('https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
@@ -116,7 +317,59 @@
           style="background-image: url('https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         </div>
       </div>
-      <div class="col-md-4 c-glitch"
+
+      <!--Modal: gallery-->
+      <div class="modal fade right" id="gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="true">
+        <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-danger" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header mx-auto pink accent-3">
+              <p class="heading my-0 py-0 font-weight-bold">
+                Gallery
+              </p>
+
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="white-text">&times;</span>
+              </button>
+            </div>
+
+            <!--Body-->
+            <div class="modal-body">
+
+              <div class="row">
+                <div class="col-3">
+                  <p class="text-center">
+                    <i class="fa fa-bookmark fa-4x blue-text" aria-hidden="true"></i>
+                  </p>
+                </div>
+
+                <div class="col-9">
+                  <p>
+                    A web based personal blog that allows users to publish new articles.
+                  </p>
+                  <p>
+                    Guest users can share their thoughts on the articles through a comment section.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer flex-center">
+              <a href="https://mdbootstrap.com/products/jquery-ui-kit/"
+                class="btn btn-sm pink accent-3 white-text view"><i class="fa fa-eye" aria-hidden="true"></i> View
+              </a>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <!--Modal: gallery-->
+
+
+      <div class="col-md-4 c-glitch help" data-target="#soon" data-toggle="modal"
         style="background-image: url('https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         <div class="c-glitch__img"
           style="background-image: url('https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
@@ -125,7 +378,7 @@
           style="background-image: url('https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         </div>
         <div class="c-glitch__img"
-          style="background-image: url(https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
+          style="background-image: url('https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         </div>
         <div class="c-glitch__img"
           style="background-image: url('https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
@@ -134,6 +387,55 @@
           style="background-image: url('https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
         </div>
       </div>
+      <!--Modal: soon-->
+      <div class="modal fade right" id="soon" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="true">
+        <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-danger" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header mx-auto pink accent-3">
+              <p class="heading my-0 py-0 font-weight-bold">
+                Comming soon
+              </p>
+
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="white-text">&times;</span>
+              </button>
+            </div>
+
+            <!--Body-->
+            <div class="modal-body">
+
+              <div class="row">
+                <div class="col-3">
+                  <p class="text-center">
+                    <i class="fa fa-bookmark fa-4x blue-text" aria-hidden="true"></i>
+                  </p>
+                </div>
+
+                <div class="col-9">
+                  <p>
+                    A web based personal blog that allows users to publish new articles.
+                  </p>
+                  <p>
+                    Guest users can share their thoughts on the articles through a comment section.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer flex-center">
+              <a href="https://mdbootstrap.com/products/jquery-ui-kit/"
+                class="btn btn-sm pink accent-3 white-text view"><i class="fa fa-eye" aria-hidden="true"></i> View
+              </a>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <!--Modal: soon-->
     </div>
   </div>
   </div>
@@ -142,57 +444,6 @@
       <a href="index.html" class="white-text">HOME</a>
     </button>
   </div>
-
-
-  <!--Modal: modalDiscount-->
-  <div class="modal fade right" id="modalDiscount" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-    aria-hidden="true" data-backdrop="true">
-    <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-danger" role="document">
-      <!--Content-->
-      <div class="modal-content">
-        <!--Header-->
-        <div class="modal-header mx-auto pink accent-3">
-          <p class="heading my-0 py-0 font-weight-bold">
-            Personal blog
-          </p>
-
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true" class="white-text">&times;</span>
-          </button>
-        </div>
-
-        <!--Body-->
-        <div class="modal-body">
-
-          <div class="row">
-            <div class="col-3">
-              <p class="text-center">
-                <i class="fa fa-bookmark fa-4x blue-text" aria-hidden="true"></i>
-              </p>
-            </div>
-
-            <div class="col-9">
-              <p>
-                A web based personal blog that allows users to publish new articles.
-              </p>
-              <p>
-                Guest users can share their thoughts on the articles through a comment section.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!--Footer-->
-        <div class="modal-footer flex-center">
-          <a href="https://mdbootstrap.com/products/jquery-ui-kit/" class="btn btn-sm pink accent-3 white-text view"><i
-              class="fa fa-eye" aria-hidden="true"></i> View
-          </a>
-        </div>
-      </div>
-      <!--/.Content-->
-    </div>
-  </div>
-  <!--Modal: modalDiscount-->
 
   <!-- JQuery -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
