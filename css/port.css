@@ -216,7 +216,7 @@
 }
 
 hr {
-  overflow: visible; /* For IE */
+  overflow: visible;
   height: 30px;
   border-style: solid;
   border-color: #f64c6d;
@@ -224,7 +224,6 @@ hr {
   border-radius: 20px;
 }
 hr:before {
-  /* Not really supposed to work, but does */
   display: block;
   content: "";
   height: 30px;
@@ -235,9 +234,6 @@ hr:before {
   border-radius: 20px;
 }
 
-/* .view {
-  background-color: #f64c6d;
-} */
 .help {
   cursor: help;
 }
